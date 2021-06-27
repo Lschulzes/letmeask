@@ -1,46 +1,144 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <a href="https://github.com/Lschulzes/letmeask">
+    <img alt="letmeask Logo" src="https://raw.githubusercontent.com/Lschulzes/letmeask/e6a9af9e3c03e78c71103eeb7a7c46a13f379d2a/src/assets/images/logo.svg" width="50%" />
+  </a>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">A Q&A app to organize livestream chatting!</p>
 
-## Available Scripts
+<p align="center">
+    <img alt="letmeask" src="https://raw.githubusercontent.com/Lschulzes/letmeask/main/src/assets/prints/Capture.PNG" width="500px"/>
+</p>
 
-In the project directory, you can run:
 
-### `yarn start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🔖 Layout
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+You can view the project layout through the links below:
 
-### `yarn test`
+- [Layout Web](https://www.figma.com/file/u0BQK8rCf2KgzcukdRRCWh/Letmeask/duplicate) 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `yarn build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- To run any ReactJS application you need to configure the environment on your machine.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Setting the environment is a simple process, so it's recommended to follow the Rocketseat guide which is currently the most complete and detailed to make the settings:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### [**Rocketseat Guide**](https://www.notion.so/Configura-es-do-ambiente-React-76f2963a042f45b9b9b567a2795945b8)
 
-### `yarn eject`
+### Clone
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Clone this repo to your local machine using:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+https://github.com/Lschulzes/letmeask
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Setup
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Install project dependencies;
+  - ```javascript
+    yarn install
+    ```
+- Run project in development mode;
 
-## Learn More
+  - ```javascript
+    yarn dev
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Enjoy!🤩
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+## ⚔ Challenges
+
+  - [ ] Create Documentation
+  - [x] Awesome Readme
+  - [x] Techs used
+  - [x] Project Setup
+  - [X] Features
+  - [x] Pages Prints
+- [x] Security Measure
+  - [x] Block users that try to go to the admin page by changing the url  
+- [x] Improve Styles
+  - [x] Add Media queries
+  - [x] Add Cool Animations
+
+---
+
+## 📋 Additional Features
+
+- [x] Hook to Logout User In All Pages
+- [x] Redirect admin to admin page when trying to login the room that he created
+- [x] Responsiviness
+- [x] Creating a good looking and small code so that user can join the room 
+
+## 🖥 Admin Point Of View
+<p align="center">
+    <img alt="letmeask" src="https://raw.githubusercontent.com/Lschulzes/letmeask/main/src/assets/prints/ezgif.com-gif-makeradmin.gif" width="800px"/>
+</p>
+
+## 🗺 User Point Of View
+<p align="center">
+    <img alt="letmeask" src="https://raw.githubusercontent.com/Lschulzes/letmeask/main/src/assets/prints/ezgif.com-gif-makeruser.gif" width="800px"/>
+</p>
+
+### Build with
+
+- [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [Typescript](https://www.typescriptlang.org/) - TypeScript is an open-source language which builds on JavaScript, one of the world’s most used tools, by adding static type definitions.
+- [Firebase](https://nextjs.org/) - Next.js gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.
+---
+
+## 🤝 Contributing
+
+> To get started...
+
+### Step 1
+
+- 🍴 Fork this repo!
+
+### Step 2
+
+- 👯 Clone this repo to your local machine using `https://github.com/Lschulzes/letmeask`
+
+### Step 3
+
+- 🎋 Create your feature branch using `git checkout -b my-feature`
+
+### Step 4
+
+- ✅ Commit your changes using `git commit -m 'feat: My new feature'`;
+
+### Step 5
+
+- 📌 Push to the branch using `git push origin my-feature`;
+
+### Step 6
+
+- 🔃 Create a new pull request
+
+After your Pull Request is merged, can you delete your feature branch.
+
+---
+
+## 📌 Support
+
+Reach out to me at one of the following places!
+
+- Linkedin at [Lucas Schulze](https://www.linkedin.com/in/lucas-schulze-3641541b7/)
+- Instagram [lschuze](https://www.instagram.com/lschulze)
+
+---
+
+## 📝 License
+<img alt="License" src="https://img.shields.io/badge/license-MIT-5965e0?style=for-the-badge&labelColor=5965e0&color=5965e0">
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+I wanted to say thanks to the rocketseat team for the NLW, this project was an amazing opportunity to learn!
+Made by me, Lucas Schulze, have a nice time 😎!
