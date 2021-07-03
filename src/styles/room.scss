@@ -111,6 +111,12 @@
       }
     }
 
+    .nothing {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
     .question-list {
       margin-top: 32px;
     }

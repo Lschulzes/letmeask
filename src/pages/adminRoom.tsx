@@ -3,6 +3,7 @@ import deleteImg from "../assets/images/delete.svg";
 import logoImg from "../assets/images/logo.svg";
 import checkImg from "../assets/images/check.svg";
 import answerImg from "../assets/images/answer.svg";
+import nothing from "../assets/images/nothinghere.png";
 import { Button } from "../components/Button";
 import { LogoutUser } from "../components/Logout";
 import { Question } from "../components/Question";
@@ -84,6 +85,11 @@ export function AdminRoom() {
         </div>
         {user?.id === authorId ? (
           <div className="question-list">
+            {!questions.length && (
+              <div className="nothing">
+                <img src={nothing} width="70%" />
+              </div>
+            )}
             {questions.map((question) => {
               return (
                 <Question

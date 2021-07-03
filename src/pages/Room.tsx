@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useHistory, useParams } from "react-router-dom";
 
 import logoImg from "../assets/images/logo.svg";
+import nothing from "../assets/images/nothinghere.png";
 import { Button } from "../components/Button";
 import { Question } from "../components/Question";
 import { RoomCode } from "../components/RoomCode";
@@ -114,6 +115,11 @@ export function Room() {
           </div>
         </form>
         <div className="question-list">
+          {!questions.length && (
+            <div className="nothing">
+              <img src={nothing} width="70%" />
+            </div>
+          )}
           {questions.map((question) => {
             return (
               <Question
