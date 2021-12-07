@@ -20,15 +20,6 @@ You can view the project layout through the links below:
 - [Layout Web](https://www.figma.com/file/u0BQK8rCf2KgzcukdRRCWh/Letmeask/duplicate) 
 
 ## 🚀 Getting Started
-
-### Prerequisites
-
-- To run any ReactJS application you need to configure the environment on your machine.
-
-- Setting the environment is a simple process, so it's recommended to follow the Rocketseat guide which is currently the most complete and detailed to make the settings:
-
-#### [**Rocketseat Guide**](https://www.notion.so/Configura-es-do-ambiente-React-76f2963a042f45b9b9b567a2795945b8)
-
 ### Clone
 
 - Clone this repo to your local machine using:
@@ -138,7 +129,3 @@ Reach out to me at one of the following places!
 <img alt="License" src="https://img.shields.io/badge/license-MIT-5965e0?style=for-the-badge&labelColor=5965e0&color=5965e0">
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-I wanted to say thanks to the rocketseat team for the NLW, this project was an amazing opportunity to learn!
-Made by me, Lucas Schulze, have a nice time 😎!
